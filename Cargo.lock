@@ -2886,15 +2886,16 @@ dependencies = [
  "markdown",
  "rocket",
  "texcreate-templates",
+ "tokio",
  "uuid",
  "zip 0.6.2",
 ]
 
 [[package]]
 name = "texcreate-templates"
-version = "0.1.2"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e8a80d3e2154c869ecb0ba1aa594cf444b7e219752830659aba549605d6aad44"
+checksum = "d4e271122590e04c5ca61a13cd6aa0b18c2a64c85514d36ab080a0c0bcc9e6a7"
 dependencies = [
  "serde",
  "serde_json",
@@ -2986,6 +2987,7 @@ dependencies = [
  "mio 0.8.4",
  "num_cpus",
  "once_cell",
+ "parking_lot",
  "pin-project-lite",
  "signal-hook-registry",
  "socket2",

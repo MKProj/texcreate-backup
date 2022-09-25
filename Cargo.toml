@@ -6,9 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-texcreate-templates = "0.1.2"
+texcreate-templates = "0.1.4"
 zip = "0.6.2"
 rocket = {version = "0.5.0-rc.2", features = ["json"]}
 markdown = "0.3.0"
 lazy_static = "1.4.0"
 uuid = {version = "1", features = ["v4"]}
+tokio = {version = "1", features = ["full"]}

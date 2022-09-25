@@ -1,0 +1,74 @@
+{
+  "name": "Template Name",
+  "author": "Author of Template",
+  "license": "License like GPLv2",
+  "description": "A little lala of your template",
+  "element_list": {
+    "metadata": {
+      "author": "author",
+      "date": "date",
+      "title": "title",
+      "fontsize": 11,
+      "doc_class": "article",
+      "maketitle": true
+    },
+    "list": [
+      {
+        "value": {
+          "value": "Hello!",
+          "type_": "T_Header",
+          "level": null,
+          "header_level": 1,
+          "text_type": null,
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Header",
+        "level": "Document"
+      },
+      {
+        "value": {
+          "value": "Hello my name is Mustafif Khan and this is a application to create templates",
+          "type_": "T_Text",
+          "level": null,
+          "header_level": null,
+          "text_type": "Par",
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Text",
+        "level": "Document"
+      },
+      {
+        "value": {
+          "value": "graphicx",
+          "type_": "T_Package",
+          "level": "Packages",
+          "header_level": null,
+          "text_type": null,
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Package",
+        "level": "Packages"
+      },
+      {
+        "value": {
+          "value": "structure.tex",
+          "type_": "T_Input",
+          "level": "Meta",
+          "header_level": null,
+          "text_type": null,
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Input",
+        "level": "Meta"
+      }
+    ]
+  }
+}
